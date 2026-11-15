@@ -925,6 +925,7 @@ QCalendarWidget QAbstractItemView:enabled {
     color: #dedede;
     background: #202020;
     border: 1px solid #393939;
+    border-top: none;
     selection-color: #ffffff;
     selection-background-color: #4285f4;
 }
@@ -932,7 +933,6 @@ QCalendarWidget QAbstractItemView:enabled {
 QCalendarWidget QWidget {
     background: #202020;
     border: 1px solid #393939;
-    border-bottom: none;
     alternate-background-color: #2a2a2a;
 }
 
